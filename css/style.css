@@ -1,40 +1,76 @@
- body {
-      font: 20px Montserrat, sans-serif;
-      line-height: 1.8;
-      color: #f5f6f7;
-  }
-  p {font-size: 16px;}
+/*
+Website Used for Color Scheme Inspiration:  
+https://www.canva.com/learn/website-color-schemes/
+*/
+
+body 
+{
+  font: 20px Montserrat, sans-serif;
+  line-height: 1.8;
+  /*color: #D9B310;   */
+}
+
+p 
+{
+  font-size: 16px;
+}
   
-  .bg-1 { 
-      background-color: #1abc9c; /* Green */
-      color: #ffffff; /* White */
-      height: 100vh; /*take up whole screen*/
-  }
-  .bg-2 { 
-      background-color: #474e5d; /* Dark Blue */
-      color: #ffffff;
-  }
-  .bg-3 { 
-      background-color: #ffffff; /* White */
-      color: #555555;
-  }
-  .bg-4 { 
-      background-color: #2f2f2f; /* Black Gray */
-      color: #fff;
-  }
-  .container-fluid {
-      padding-top: 70px;
-      padding-bottom: 70px;
-  }
-  .navbar {
-      padding-top: 15px;
-      padding-bottom: 15px;
-      border: 0;
-      border-radius: 0;
-      margin-bottom: 0;
-      font-size: 12px;
-      letter-spacing: 5px;
-  }
-  .navbar-nav  li a:hover {
-      color: #1abc9c !important;
-  }
+/* Top Thing */
+.bg-1 
+{ 
+  /*background-color: #0B3C5D; /* Prussian Blue */
+  /*color: #ffffff; /* White */
+  /*height: 100vh; /*take up whole screen*/ */
+}
+
+/* Goal */
+.bg-2 
+{ 
+  /*background-color: #474e5d; /* Dark Blue */
+  color: #ffffff;
+}
+
+/* Pictures and Video */
+.bg-4
+{
+  background-color: #474e5d; /* Dark Blue */
+  color: #ffffff;
+  height: 100vh;
+}
+
+/* Team Members */
+.bg-5 
+{ 
+  background-color: #1D2731; /* Ivory Black */
+  color: #fff;
+}
+  
+/* Footer */ 
+.bg-6 
+{ 
+  background-color: #2f2f2f; /* Black Gray */
+  color: #fff;
+}
+
+.container-fluid 
+{
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.navbar 
+{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 12px;
+  letter-spacing: 5px;
+  background-color: #1D2731; /* Ivory Black */
+}
+
+.navbar-nav  li a:hover 
+{
+  color: #D9B310 !important; /* Gold Leaf */
+}
